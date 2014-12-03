@@ -1,0 +1,66 @@
+body{
+	z-index: 1;
+	background-color: #f2f2f2;
+	
+	
+
+	background-repeat: no-repeat;
+
+/*background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 36%,rgba(0,0,0,0.15) 98%); /* W3C */*/
+/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#26000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */*/
+
+}
+/*
+#body_div{
+	background-image: url('../img/logo.png');
+	background-size: 30%;
+	background-repeat: no-repeat;
+	background-position: center;
+}*/
+
+#band{
+	position: absolute;
+	left: 46%;
+	right: auto;
+	top: 10%;
+	width: 9%;
+	height: auto;
+	z-index: 5;
+	opacity: 0;
+}
+
+#cen{
+	position: absolute;
+	z-index: 3;
+	/*top: 50%;*/
+	/*left: 50%;*/
+	width: 30%;
+	height: auto;
+	opacity: 0;
+}
+#buffer{
+	position: absolute;
+	z-index: 1;
+}
+#topCan{
+	position: absolute;
+	z-index: 6;
+
+}
+
+#goButton{
+	position: absolute;
+
+	top:75%;
+	left: 40%;
+	background-color: #339094;
+	z-index: 10;
+	opacity: 0;
+
+}
+
+#content{
+	 position: absolute;
+	 z-index: 8;
+	 /*background-color: #fff;*/
+}
